@@ -1,11 +1,15 @@
-# cloud-runtimes-golang
+# Cloud Runtimes Golang
 
 Cloud Runtimes Specification for the Golang.
 
 ## Introduction
 
-Standard API for [dapr](https://docs.dapr.io/concepts/building-blocks-concept/)
-/ [layotto](https://github.com/mosn/layotto) / [capa](https://github.com/reactivegroup/capa) / ....
+The Multi-Runtime Standard API for Mecha architecture Projects:
+
++ [capa](https://github.com/reactivegroup/capa) (used)
++ [dapr](https://docs.dapr.io/concepts/building-blocks-concept/) (follow)
++ [layotto](https://github.com/mosn/layotto) (follow)
++ ....
 
 ## Motivation
 
@@ -16,3 +20,15 @@ Standard API for [dapr](https://docs.dapr.io/concepts/building-blocks-concept/)
 [Decompose core-API and enhanced-API.](https://github.com/dapr/dapr/issues/3600)
 
 [Java sdk design](https://github.com/mosn/layotto/issues/206)
+
+## Features
+
++ Service Invocation (RPC)
++ Configuration Centor (Configuration)
++ Publish/Subscribe (Pub/Sub)
++ State Management (State)
++ Secret Management (Secret)
++ Application Log/Metrics/Traces (Telemetry)
++ Database (SQL) -alpha
++ Schedule (Schedule) -alpha
++ ...
